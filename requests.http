@@ -1,0 +1,30 @@
+### Index
+GET http://localhost:3000/gums
+
+### Create
+POST http://localhost:3000/gums
+Content-Type: application/json
+
+{
+  "name": "Hubba Bubba",
+  "flavor": "Bubble Gum",
+  "cost": 2
+}
+
+### Show
+GET http://localhost:3000/gums/3
+
+
+### Update
+PATCH http://localhost:3000/gums/4
+Content-Type: application/json
+
+{
+  "cost": 5
+}
+
+### Destroy
+DELETE http://localhost:3000/gums/4
+
+
+
