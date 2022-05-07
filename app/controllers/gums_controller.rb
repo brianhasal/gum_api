@@ -1,0 +1,2 @@
+class GumsController < ApplicationController
+end

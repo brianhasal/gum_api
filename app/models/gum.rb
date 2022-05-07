@@ -1,0 +1,2 @@
+class Gum < ApplicationRecord
+end
